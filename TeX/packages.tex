@@ -1,0 +1,61 @@
+%======================================================================
+% 	   PACKAGES USEFUL TO FORMAT AND COMPILE EVERY LaTeX DOCUMENT
+%======================================================================
+
+%*********Document formatting****************
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=3cm,bottom=3cm,,left=3.5cm,right=3.5cm]{geometry}
+\usepackage[english]{babel}
+\usepackage{fmtcount}
+
+%************Line spacing********************
+\usepackage{setspace}
+
+%************Footnote setup******************
+\usepackage[bottom]{footmisc}
+\setlength\footnotemargin{10pt}
+
+%**************Caption setup*****************
+\usepackage{caption}[2004/07/16]
+\captionsetup{
+	tableposition=top,
+	figureposition=bottom,
+	labelfont={sf,bf},
+	singlelinecheck=false,
+	margin=1cm
+	}
+
+%***********Tables utilities*****************
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{makecell}
+\renewcommand{\cellalign}{l}
+
+%***********Figures utilities****************
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfig}
+
+%***************Math setup*******************
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{siunitx}
+
+%*************Hyperlink setup****************
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    citecolor=blue,      
+    linktocpage=true
+}
+
+%************Bibliography cite***************
+\usepackage{cite}
+
+%****************Appendices******************
+\usepackage[titletoc]{appendix}

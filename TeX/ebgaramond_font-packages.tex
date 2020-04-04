@@ -1,0 +1,20 @@
+%==========================================================
+%		EBGARAMOND FONT SETUP WITH MATH EXTENSION
+%==========================================================
+
+%*****************Definitions**********************
+\usepackage{ebgaramond}
+\usepackage{ebgaramond-maths}
+
+%***********Add missing font symbols***************
+\usepackage[cmintegrals,cmbraces]{newtxmath}
+\makeatletter
+	\DeclareSymbolFont{ntxletters}{OML}{ntxmi}{m}{it}
+	\SetSymbolFont{ntxletters}{bold}{OML}{ntxmi}{b}{it}
+	\re@DeclareMathSymbol{\partial}{\mathord}{ntxletters}{"40}
+	\re@DeclareMathAccent{\vec}{\mathord}{ntxletters}{"7E}
+\makeatother
+
+%*****To enlarge epsilon symbol*******
+%	\mathlarger{\mathlarger{\epsilon}}
+\usepackage{relsize}
