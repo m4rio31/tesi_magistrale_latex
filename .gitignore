@@ -1,0 +1,14 @@
+tikz-feynman/
+principale.pdf
+*.out
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.synctex.gz
+*.toc
+principale-blx.bib
+principale.run.xml
+fmfdefault.mf
+.ipynb_checkpoints/
