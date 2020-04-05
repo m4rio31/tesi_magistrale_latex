@@ -1,6 +1,6 @@
 # Tesi Magistrale (LaTeX version)
 
-The final PDF version of the thesis in downloadable from [tesi_lamberti](http://github.com/m4rio31/tesi_magistrale_latex/files/4430907/principale.pdf).
+The final PDF version of the thesis in available [here](http://github.com/m4rio31/tesi_magistrale_latex/files/4430907/principale.pdf).
 
 In order to compile the Feynman diagrams, clone the [Tikz-Feynman](https://github.com/JP-Ellis/tikz-feynman) git repository.
 
